@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adestramento de Animais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adestramento de Animais</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Adestramento</h2>
+        <p>O adestramento de animais é uma prática essencial para garantir a boa convivência entre seres humanos e seus pets. Através do adestramento, podemos ensinar comandos básicos e ajudar na correção de comportamentos indesejados.</p>
+        <p>Os métodos variam de acordo com o tipo de animal e a personalidade de cada um, mas todos têm como objetivo criar uma relação saudável e respeitosa.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery">
+            <img src="dog1.jpg" alt="Cão sendo adestrado">
+            <img src="dog2.jpg" alt="Cão obedecendo comandos">
+            <img src="dog3.jpg" alt="Cão com treinador">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="feedback"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adestramento de Animais. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
